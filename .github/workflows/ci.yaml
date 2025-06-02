@@ -12,7 +12,7 @@ on:
 jobs:
   linting-job:
     runs-on: ubuntu
-      steps:
+    steps:
       - name: welcome steps
         run: echo "CI pipline for this repo"
 
